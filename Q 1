@@ -1,8 +1,6 @@
-def stoh(seconds):
-    h=seconds//3600
-    m=(seconds%3600)//60
-    s=seconds%60
-    return f"{h:02}:{m:02}:{s:02}"
-
-print("Time in HH:MM:SS format",stoh(int(input("Enter the time in seconds: "))))
-
+time=int(input("Enter the time in seconds"))
+h=time//3600
+m=(time%3600)//60
+s=time%60
+print("Time in HH:MM:SS format")
+print(f"{h:02}:{m:02}:{s:02}")
