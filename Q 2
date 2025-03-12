@@ -1,1 +1,5 @@
-
+from math import pi
+r=int(input("Enter the radius of circle"))
+area=pi*r**2
+circ=2*pi*r
+print(f"Area:{area:.2f},Circumference:{circ:.2f}")
